@@ -3,8 +3,8 @@ import java.util.*;
 
 public class LinkedListMultiset<T> extends Multiset<T>
 {
-	private Node firstNode;
-	private Node lastNode;
+	public Node firstNode;
+	public Node lastNode;
 
 	private boolean debugMode;
 
@@ -120,7 +120,7 @@ public class LinkedListMultiset<T> extends Multiset<T>
 		while (currentNode != null) {
 			// todo: how to compare the item
 			//  == tests for reference equality
-			//  if use String.equals
+			//  use equals
 			if (currentNode.element.equals(item)) {
 				return currentNode;
 			}

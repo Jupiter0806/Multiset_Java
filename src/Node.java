@@ -2,8 +2,8 @@ class Node<T> {
 	public T element;
 	public int count;
 
-	private Node previous;
-	private Node next;
+	protected Node previous;
+	protected Node next;
 
 	public Node(T element, int count) {
 		this.element = element;
