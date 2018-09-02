@@ -15,7 +15,7 @@ public class SortedLinkedListMultiset<T> extends Multiset<T>
 		this.lastNode = null;
 
 		// before submission: set it as false
-		this.debugMode = true;
+		this.debugMode = false;
 	} // end of SortedLinkedListMultiset()
 	
 	public void add(T item) {
@@ -141,7 +141,7 @@ public class SortedLinkedListMultiset<T> extends Multiset<T>
 			}
 		} else {
 			//before submission: comment it 
-			out.println("empty");
+			// out.println("empty");
 		}
 	} // end of print()
 	

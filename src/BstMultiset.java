@@ -12,7 +12,7 @@ public class BstMultiset<T> extends Multiset<T>
 		this.root = null;
 
 		// before submission: set it as false
-		this.debugMode = true;
+		this.debugMode = false;
 	} // end of BstMultiset()
 
 	public void add(T item) {

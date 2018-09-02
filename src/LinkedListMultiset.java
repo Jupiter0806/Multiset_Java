@@ -15,7 +15,7 @@ public class LinkedListMultiset<T> extends Multiset<T>
 		this.lastNode = null;
 
 		// before submission: set it as false
-		this.debugMode = true;
+		this.debugMode = false;
 	} // end of LinkedListMultiset()
 	
 	
@@ -111,7 +111,7 @@ public class LinkedListMultiset<T> extends Multiset<T>
 			}
 		} else {
 			//before submission: comment it 
-			out.println("empty");
+			// out.println("empty");
 		}
 	} // end of print()
 	
